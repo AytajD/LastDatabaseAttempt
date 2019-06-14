@@ -1,0 +1,1109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ab77eb08-20c4-4d8d-ba3d-e4bc634a31fd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../IdeaProjects/Exceptions/src/ErrorsInJava.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IdeaProjects/PracticeDebug/PracticeDebug.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IdeaProjects/ThreadsInJava/src/FirstThreads/DemoMain1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IdeaProjects/ThreadsInJava/src/SecondThreads/DemoMain2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IdeaProjects/ThreadsInJava/src/ThirdThreads/DemoMain3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IdeaProjects/jOptionPaneProject/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/CallSignature/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/MVPNote/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/MVPNote/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/MVPNote/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/MVPNote/app/src/androidTest/java/com/dadashova/aytaj/mvpnote/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/MVPNote/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/MVPNote/app/src/main/java/com/dadashova/aytaj/mvpnote/BaseView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/MVPNote/app/src/main/java/com/dadashova/aytaj/mvpnote/NewNoteCallBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/MVPNote/app/src/main/java/com/dadashova/aytaj/mvpnote/db_helper/NoteDb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/MVPNote/app/src/main/java/com/dadashova/aytaj/mvpnote/interactors/NoteInteractor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/MVPNote/app/src/main/java/com/dadashova/aytaj/mvpnote/new_note/AddNoteContractor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/MVPNote/app/src/main/java/com/dadashova/aytaj/mvpnote/new_note/AddNotePresenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/MVPNote/app/src/main/java/com/dadashova/aytaj/mvpnote/note/NoteActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/MVPNote/app/src/main/java/com/dadashova/aytaj/mvpnote/note/NoteAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/MVPNote/app/src/main/java/com/dadashova/aytaj/mvpnote/note/NoteContractor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/MVPNote/app/src/main/java/com/dadashova/aytaj/mvpnote/note/NoteHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/MVPNote/app/src/main/java/com/dadashova/aytaj/mvpnote/note/NotePresenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/MVPNote/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/MVPNote/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/MVPNote/app/src/main/res/layout/activity_note.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/MVPNote/app/src/main/res/layout/item_note_row.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/MVPNote/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/MVPNote/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/MVPNote/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/MVPNote/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/MVPNote/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/MVPNote/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/MVPNote/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/MVPNote/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/MVPNote/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/MVPNote/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/MVPNote/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/MVPNote/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/MVPNote/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/MVPNote/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/MVPNote/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/MVPNote/app/src/test/java/com/dadashova/aytaj/mvpnote/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/androidTest/java/com/dadashova/aytaj/wclose/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/java/com/dadashova/aytaj/wclose/project/Activities/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/java/com/dadashova/aytaj/wclose/project/Activities/SplashActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/java/com/dadashova/aytaj/wclose/project/Containers/CategorySpinnerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/java/com/dadashova/aytaj/wclose/project/Containers/CategorySpinnerModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/java/com/dadashova/aytaj/wclose/project/Containers/CommentsAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/java/com/dadashova/aytaj/wclose/project/Containers/CommentsModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/java/com/dadashova/aytaj/wclose/project/Containers/ListGridViewAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/java/com/dadashova/aytaj/wclose/project/Containers/ListModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/java/com/dadashova/aytaj/wclose/project/Containers/MyPortfolioAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/java/com/dadashova/aytaj/wclose/project/Containers/MyPortfolioModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/java/com/dadashova/aytaj/wclose/project/Containers/PortfolioAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/java/com/dadashova/aytaj/wclose/project/Containers/SubCategoryAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/java/com/dadashova/aytaj/wclose/project/Containers/SubCategoryModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/java/com/dadashova/aytaj/wclose/project/Fragments/CategorySpinnerFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/java/com/dadashova/aytaj/wclose/project/Fragments/ListFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/java/com/dadashova/aytaj/wclose/project/Fragments/LoggedInFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/java/com/dadashova/aytaj/wclose/project/Fragments/LoggedOutFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/java/com/dadashova/aytaj/wclose/project/Fragments/MainPageFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/java/com/dadashova/aytaj/wclose/project/Fragments/MyCommentsFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/java/com/dadashova/aytaj/wclose/project/Fragments/MyPortfolioFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/java/com/dadashova/aytaj/wclose/project/Fragments/MyProfileFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/java/com/dadashova/aytaj/wclose/project/Fragments/SettingsFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/java/com/dadashova/aytaj/wclose/project/Fragments/SubCategorySpinnerFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/java/com/dadashova/aytaj/wclose/project/Fragments/TheirCommentsFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/java/com/dadashova/aytaj/wclose/project/Fragments/TheirPortfolioFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/java/com/dadashova/aytaj/wclose/project/Fragments/TheirProfileFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/java/com/dadashova/aytaj/wclose/project/Helper/Utility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-hdpi/action_bar_ellipse.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-hdpi/add_photo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-hdpi/arrow_point_to_down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-hdpi/arrow_point_to_right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-hdpi/big_lock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-hdpi/big_star_activated.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-hdpi/blue_back_rectangle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-hdpi/btn_about_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-hdpi/btn_blue_back_oval.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-hdpi/btn_blue_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-hdpi/btn_blue_oval_back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-hdpi/btn_portfolio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-hdpi/btn_white_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-hdpi/call_answer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-hdpi/call_answer_circle_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-hdpi/category_button_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-hdpi/chat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-hdpi/comment_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-hdpi/comments_profile_pic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-hdpi/contract.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-hdpi/edit_txt_comment_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-hdpi/fee_shadow_profile_back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-hdpi/find_button_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-hdpi/grid_item_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-hdpi/grid_view_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-hdpi/hamburger_menu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-hdpi/ic_check.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-hdpi/ic_user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-hdpi/keyword_edit_txt_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-hdpi/line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-hdpi/list.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-hdpi/location_button_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-hdpi/logout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-hdpi/mail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-hdpi/main_page_back_rectangle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-hdpi/maps_and_flags.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-hdpi/maps_and_flags_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-hdpi/ok_btn_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-hdpi/pencil.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-hdpi/plus_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-hdpi/portfolio_pics_backround.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-hdpi/profile_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-hdpi/profile_background_card.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-hdpi/profile_call_answer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-hdpi/profile_cards.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-hdpi/profile_chat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-hdpi/profile_img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-hdpi/profile_pic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-hdpi/rate_btn_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-hdpi/recycler_view_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-hdpi/refresh_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-hdpi/registr_back_rectangle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-hdpi/right_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-hdpi/see_more_button_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-hdpi/send_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-hdpi/settings_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-hdpi/settings_seleckted_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-hdpi/settings_work_tool.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-hdpi/sort_by_rate_button_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-hdpi/splash_screen_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-hdpi/star.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-hdpi/star_activated.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-hdpi/star_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-hdpi/star_grey_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-hdpi/sub_button_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-hdpi/x_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-ldpi/action_bar_ellipse.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-ldpi/add_photo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-ldpi/arrow_point_to_down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-ldpi/arrow_point_to_right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-ldpi/big_lock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-ldpi/big_star_activated.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-ldpi/blue_back_rectangle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-ldpi/btn_about_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-ldpi/btn_blue_back_oval.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-ldpi/btn_blue_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-ldpi/btn_blue_oval_back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-ldpi/btn_portfolio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-ldpi/btn_white_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-ldpi/call_answer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-ldpi/category_button_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-ldpi/chat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-ldpi/comment_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-ldpi/comments_profile_pic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-ldpi/contract.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-ldpi/edit_txt_comment_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-ldpi/fee_shadow_profile_back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-ldpi/find_button_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-ldpi/grid_item_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-ldpi/grid_view_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-ldpi/hamburger_menu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-ldpi/ic_check.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-ldpi/ic_user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-ldpi/keyword_edit_txt_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-ldpi/line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-ldpi/list.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-ldpi/location_button_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-ldpi/logout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-ldpi/mail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-ldpi/main_page_back_rectangle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-ldpi/maps_and_flags.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-ldpi/maps_and_flags_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-ldpi/ok_btn_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-ldpi/pencil.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-ldpi/plus_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-ldpi/portfolio_pics_backround.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-ldpi/profile_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-ldpi/profile_background_card.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-ldpi/profile_call_answer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-ldpi/profile_cards.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-ldpi/profile_chat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-ldpi/profile_img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-ldpi/profile_pic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-ldpi/rate_btn_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-ldpi/recycler_view_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-ldpi/refresh_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-ldpi/registr_back_rectangle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-ldpi/right_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-ldpi/see_more_button_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-ldpi/send_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-ldpi/settings_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-ldpi/settings_seleckted_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-ldpi/settings_work_tool.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-ldpi/sort_by_rate_button_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-ldpi/splash_screen_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-ldpi/star.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-ldpi/star_activated.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-ldpi/star_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-ldpi/star_grey_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-ldpi/sub_button_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-ldpi/x_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-mdpi/action_bar_ellipse.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-mdpi/add_photo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-mdpi/arrow_point_to_down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-mdpi/arrow_point_to_right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-mdpi/big_lock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-mdpi/big_star_activated.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-mdpi/blue_back_rectangle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-mdpi/btn_about_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-mdpi/btn_blue_back_oval.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-mdpi/btn_blue_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-mdpi/btn_blue_oval_back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-mdpi/btn_portfolio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-mdpi/btn_white_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-mdpi/call_answer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-mdpi/call_answer_circle_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-mdpi/category_button_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-mdpi/chat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-mdpi/comment_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-mdpi/comments_profile_pic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-mdpi/contract.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-mdpi/edit_txt_comment_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-mdpi/fee_shadow_profile_back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-mdpi/find_button_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-mdpi/grid_item_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-mdpi/grid_view_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-mdpi/hamburger_menu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-mdpi/ic_check.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-mdpi/ic_user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-mdpi/keyword_edit_txt_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-mdpi/line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-mdpi/list.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-mdpi/location_button_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-mdpi/logout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-mdpi/mail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-mdpi/main_page_back_rectangle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-mdpi/maps_and_flags.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-mdpi/maps_and_flags_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-mdpi/ok_btn_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-mdpi/pencil.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-mdpi/plus_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-mdpi/portfolio_pics_backround.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-mdpi/profile_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-mdpi/profile_background_card.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-mdpi/profile_call_answer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-mdpi/profile_cards.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-mdpi/profile_chat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-mdpi/profile_img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-mdpi/profile_pic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-mdpi/rate_btn_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-mdpi/recycler_view_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-mdpi/refresh_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-mdpi/registr_back_rectangle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-mdpi/right_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-mdpi/see_more_button_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-mdpi/send_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-mdpi/settings_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-mdpi/settings_seleckted_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-mdpi/settings_work_tool.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-mdpi/sort_by_rate_button_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-mdpi/splash_screen_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-mdpi/star.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-mdpi/star_activated.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-mdpi/star_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-mdpi/star_grey_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-mdpi/sub_button_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-mdpi/x_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xhdpi/action_bar_ellipse.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xhdpi/add_photo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xhdpi/arrow_point_to_down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xhdpi/arrow_point_to_right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xhdpi/big_lock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xhdpi/big_star_activated.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xhdpi/blue_back_rectangle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xhdpi/btn_about_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xhdpi/btn_blue_back_oval.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xhdpi/btn_blue_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xhdpi/btn_blue_oval_back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xhdpi/btn_portfolio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xhdpi/btn_white_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xhdpi/call_answer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xhdpi/call_answer_circle_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xhdpi/category_button_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xhdpi/chat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xhdpi/comment_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xhdpi/comments_profile_pic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xhdpi/contract.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xhdpi/edit_txt_comment_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xhdpi/fee_shadow_profile_back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xhdpi/find_button_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xhdpi/grid_item_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xhdpi/grid_view_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xhdpi/hamburger_menu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xhdpi/ic_check.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xhdpi/ic_user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xhdpi/keyword_edit_txt_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xhdpi/line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xhdpi/list.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xhdpi/location_button_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xhdpi/logout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xhdpi/mail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xhdpi/main_page_back_rectangle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xhdpi/maps_and_flags.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xhdpi/maps_and_flags_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xhdpi/ok_btn_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xhdpi/pencil.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xhdpi/plus_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xhdpi/portfolio_pics_backround.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xhdpi/profile_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xhdpi/profile_background_card.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xhdpi/profile_call_answer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xhdpi/profile_cards.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xhdpi/profile_chat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xhdpi/profile_img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xhdpi/profile_pic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xhdpi/rate_btn_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xhdpi/recycler_view_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xhdpi/refresh_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xhdpi/registr_back_rectangle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xhdpi/right_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xhdpi/see_more_button_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xhdpi/send_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xhdpi/settings_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xhdpi/settings_seleckted_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xhdpi/settings_work_tool.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xhdpi/sort_by_rate_button_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xhdpi/splash_screen_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xhdpi/star.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xhdpi/star_activated.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xhdpi/star_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xhdpi/star_grey_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xhdpi/sub_button_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xhdpi/x_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxhdpi/action_bar_ellipse.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxhdpi/add_photo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxhdpi/arrow_point_to_down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxhdpi/arrow_point_to_right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxhdpi/big_lock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxhdpi/big_star_activated.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxhdpi/blue_back_rectangle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxhdpi/btn_about_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxhdpi/btn_blue_back_oval.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxhdpi/btn_blue_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxhdpi/btn_blue_oval_back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxhdpi/btn_portfolio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxhdpi/btn_white_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxhdpi/call_answer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxhdpi/call_answer_circle_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxhdpi/category_button_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxhdpi/chat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxhdpi/comment_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxhdpi/comments_profile_pic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxhdpi/contract.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxhdpi/edit_txt_comment_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxhdpi/fee_shadow_profile_back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxhdpi/find_button_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxhdpi/gradient_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxhdpi/grid_item_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxhdpi/grid_view_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxhdpi/hamburger_menu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxhdpi/ic_check.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxhdpi/ic_user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxhdpi/keyword_edit_txt_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxhdpi/line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxhdpi/list.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxhdpi/location_button_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxhdpi/logout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxhdpi/mail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxhdpi/main_page_back_rectangle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxhdpi/maps_and_flags.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxhdpi/maps_and_flags_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxhdpi/ok_btn_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxhdpi/pencil.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxhdpi/plus_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxhdpi/portfolio_pics_backround.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxhdpi/profile_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxhdpi/profile_background_card.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxhdpi/profile_call_answer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxhdpi/profile_cards.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxhdpi/profile_chat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxhdpi/profile_img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxhdpi/profile_pic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxhdpi/rate_btn_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxhdpi/recycler_view_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxhdpi/refresh_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxhdpi/registr_back_rectangle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxhdpi/right_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxhdpi/see_more_button_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxhdpi/send_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxhdpi/settings_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxhdpi/settings_seleckted_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxhdpi/settings_work_tool.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxhdpi/sort_by_rate_button_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxhdpi/splash_screen_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxhdpi/star_activated.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxhdpi/star_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxhdpi/star_grey_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxhdpi/sub_button_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxhdpi/x_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxxhdpi/action_bar_ellipse.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxxhdpi/add_photo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxxhdpi/arrow_point_to_down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxxhdpi/arrow_point_to_right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxxhdpi/big_lock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxxhdpi/big_star_activated.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxxhdpi/blue_back_rectangle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxxhdpi/btn_about_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxxhdpi/btn_blue_back_oval.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxxhdpi/btn_blue_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxxhdpi/btn_blue_oval_back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxxhdpi/btn_portfolio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxxhdpi/btn_white_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxxhdpi/call_answer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxxhdpi/call_answer_circle_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxxhdpi/category_button_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxxhdpi/chat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxxhdpi/comment_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxxhdpi/comments_profile_pic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxxhdpi/contract.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxxhdpi/edit_txt_comment_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxxhdpi/fee_shadow_profile_back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxxhdpi/find_button_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxxhdpi/grid_item_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxxhdpi/grid_view_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxxhdpi/hamburger_menu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxxhdpi/ic_check.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxxhdpi/ic_user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxxhdpi/keyword_edit_txt_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxxhdpi/line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxxhdpi/list.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxxhdpi/location_button_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxxhdpi/logout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxxhdpi/mail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxxhdpi/main_page_back_rectangle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxxhdpi/maps_and_flags.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxxhdpi/maps_and_flags_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxxhdpi/ok_btn_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxxhdpi/pencil.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxxhdpi/plus_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxxhdpi/portfolio_pics_backround.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxxhdpi/profile_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxxhdpi/profile_background_card.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxxhdpi/profile_call_answer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxxhdpi/profile_cards.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxxhdpi/profile_chat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxxhdpi/profile_img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxxhdpi/profile_pic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxxhdpi/rate_btn_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxxhdpi/recycler_view_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxxhdpi/refresh_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxxhdpi/registr_back_rectangle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxxhdpi/right_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxxhdpi/see_more_button_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxxhdpi/send_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxxhdpi/settings_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxxhdpi/settings_seleckted_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxxhdpi/settings_work_tool.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxxhdpi/sort_by_rate_button_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxxhdpi/splash_screen_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxxhdpi/star_activated.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxxhdpi/star_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxxhdpi/star_grey_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxxhdpi/sub_button_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable-xxxhdpi/x_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable/button_circle_background_style.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable/button_white_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable/comments_edtext_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable/custom_rating_bar_big.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable/custom_ratingbar_small.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable/grid_background_style.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable/half_circle_action_bar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable/ic_chevron_right_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable/ic_keyboard_arrow_down_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable/ic_recycler_view_background_svg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable/portfolio_item_border_style.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable/spinner_blue_back_top.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/drawable/spinner_blue_bottom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/font/avenirltstd_black.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/font/avenirltstd_book.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/font/avenirltstd_heavy.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/font/avenirltstd_light.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/font/avenirltstd_medium.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/layout/activity_splash.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/layout/comments_row_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/layout/custom_action_bar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/layout/custom_toolbar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/layout/fragment_category_spinner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/layout/fragment_list.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/layout/fragment_logged_in.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/layout/fragment_logged_out.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/layout/fragment_main_page.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/layout/fragment_my_comments.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/layout/fragment_my_portfolio.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/layout/fragment_my_profile.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/layout/fragment_profile.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/layout/fragment_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/layout/fragment_sub_category_spinner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/layout/fragment_their_comments.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/layout/fragment_their_portfolio.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/layout/list_grid_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/layout/my_portfolio_grid_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/layout/portfolio_grid_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/layout/rubbish.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/layout/spinner_row_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/layout/sub_spinner_row_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/app/src/test/java/com/dadashova/aytaj/wclose/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My_Android_Projects/Wclose/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../My_Android_Projects/CallSignature/app/src/main/java/com/dadashova/aytaj/callsignature/containers/CallModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../My_Android_Projects/CallSignature/app/src/main/java/com/dadashova/aytaj/callsignature/containers/CallModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../My_Android_Projects/CallSignature/app/src/main/java/com/dadashova/aytaj/callsignature/containers/CallsAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../My_Android_Projects/CallSignature/app/src/main/java/com/dadashova/aytaj/callsignature/containers/CallsAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../My_Android_Projects/CallSignature/app/src/main/java/com/dadashova/aytaj/callsignature/containers/CallsViewHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../My_Android_Projects/CallSignature/app/src/main/java/com/dadashova/aytaj/callsignature/containers/CallsViewHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../My_Android_Projects/CallSignature/app/src/main/java/com/dadashova/aytaj/callsignature/containers/CreatedSignatureAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../My_Android_Projects/CallSignature/app/src/main/java/com/dadashova/aytaj/callsignature/containers/CreatedSignatureAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../My_Android_Projects/CallSignature/app/src/main/java/com/dadashova/aytaj/callsignature/containers/MyFragmentPagerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../My_Android_Projects/CallSignature/app/src/main/java/com/dadashova/aytaj/callsignature/containers/MyFragmentPagerAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../My_Android_Projects/CallSignature/app/src/main/java/com/dadashova/aytaj/callsignature/containers/NotifViewHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../My_Android_Projects/CallSignature/app/src/main/java/com/dadashova/aytaj/callsignature/containers/NotifViewHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../My_Android_Projects/CallSignature/app/src/main/java/com/dadashova/aytaj/callsignature/containers/NotificationAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../My_Android_Projects/CallSignature/app/src/main/java/com/dadashova/aytaj/callsignature/containers/NotificationAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../My_Android_Projects/CallSignature/app/src/main/java/com/dadashova/aytaj/callsignature/containers/NotificationModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../My_Android_Projects/CallSignature/app/src/main/java/com/dadashova/aytaj/callsignature/containers/NotificationModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../My_Android_Projects/CallSignature/app/src/main/java/com/dadashova/aytaj/callsignature/containers/SignatureBottomSheetFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../My_Android_Projects/CallSignature/app/src/main/java/com/dadashova/aytaj/callsignature/containers/SignatureBottomSheetFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../My_Android_Projects/CallSignature/app/src/main/java/com/dadashova/aytaj/callsignature/containers/SignatureModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../My_Android_Projects/CallSignature/app/src/main/java/com/dadashova/aytaj/callsignature/containers/SignatureModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../My_Android_Projects/CallSignature/app/src/main/java/com/dadashova/aytaj/callsignature/containers/SignatureViewHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../My_Android_Projects/CallSignature/app/src/main/java/com/dadashova/aytaj/callsignature/containers/SignatureViewHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../My_Android_Projects/CallSignature/app/src/main/java/com/dadashova/aytaj/callsignature/fragments/CallListsFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../My_Android_Projects/CallSignature/app/src/main/java/com/dadashova/aytaj/callsignature/fragments/CallListsFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../My_Android_Projects/CallSignature/app/src/main/java/com/dadashova/aytaj/callsignature/fragments/ChangeSignatureFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../My_Android_Projects/CallSignature/app/src/main/java/com/dadashova/aytaj/callsignature/fragments/ChangeSignatureFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../My_Android_Projects/CallSignature/app/src/main/java/com/dadashova/aytaj/callsignature/fragments/CreatedSignatureFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../My_Android_Projects/CallSignature/app/src/main/java/com/dadashova/aytaj/callsignature/fragments/CreatedSignatureFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../My_Android_Projects/CallSignature/app/src/main/java/com/dadashova/aytaj/callsignature/fragments/NotificationFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../My_Android_Projects/CallSignature/app/src/main/java/com/dadashova/aytaj/callsignature/fragments/NotificationFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../My_Android_Projects/CallSignature/app/src/main/java/com/dadashova/aytaj/callsignature/fragments/NotificationListFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../My_Android_Projects/CallSignature/app/src/main/java/com/dadashova/aytaj/callsignature/fragments/NotificationListFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../My_Android_Projects/CallSignature/app/src/main/java/com/dadashova/aytaj/callsignature/fragments/SuggestedSignatureFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../My_Android_Projects/CallSignature/app/src/main/java/com/dadashova/aytaj/callsignature/fragments/SuggestedSignatureFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../My_Android_Projects/CallSignature/app/src/main/java/com/dadashova/aytaj/callsignature/interfaces/NotificationCallBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/../My_Android_Projects/CallSignature/app/src/main/java/com/dadashova/aytaj/callsignature/interfaces/NotificationCallBack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../My_Android_Projects/CallSignature/app/src/main/java/com/dadashova/aytaj/callsignature/interfaces/SignatureCallBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/../My_Android_Projects/CallSignature/app/src/main/java/com/dadashova/aytaj/callsignature/interfaces/SignatureCallBack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../My_Android_Projects/CallSignature/app/src/main/res/drawable-xhdpi/bg_signature_gradient.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../My_Android_Projects/CallSignature/app/src/main/res/drawable/bg_change_signature.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../My_Android_Projects/CallSignature/app/src/main/res/drawable/bg_change_signature.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../My_Android_Projects/CallSignature/app/src/main/res/drawable/bg_edit_text_count.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../My_Android_Projects/CallSignature/app/src/main/res/drawable/bg_edit_text_count.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../My_Android_Projects/CallSignature/app/src/main/res/drawable/bg_fab.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../My_Android_Projects/CallSignature/app/src/main/res/drawable/bg_fab.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../My_Android_Projects/CallSignature/app/src/main/res/drawable/bg_notif_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../My_Android_Projects/CallSignature/app/src/main/res/drawable/bg_notif_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../My_Android_Projects/CallSignature/app/src/main/res/drawable/drawable_item_decorator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../My_Android_Projects/CallSignature/app/src/main/res/drawable/drawable_item_decorator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../My_Android_Projects/CallSignature/app/src/main/res/layout/fragment_call_lists.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../My_Android_Projects/CallSignature/app/src/main/res/layout/fragment_call_lists.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../My_Android_Projects/CallSignature/app/src/main/res/layout/fragment_change_signature.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../My_Android_Projects/CallSignature/app/src/main/res/layout/fragment_change_signature.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../My_Android_Projects/CallSignature/app/src/main/res/layout/fragment_created_signature.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../My_Android_Projects/CallSignature/app/src/main/res/layout/fragment_created_signature.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../My_Android_Projects/CallSignature/app/src/main/res/layout/fragment_my_signature.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../My_Android_Projects/CallSignature/app/src/main/res/layout/fragment_my_signature.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../My_Android_Projects/CallSignature/app/src/main/res/layout/fragment_notification.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../My_Android_Projects/CallSignature/app/src/main/res/layout/fragment_notification.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../My_Android_Projects/CallSignature/app/src/main/res/layout/fragment_notifications.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../My_Android_Projects/CallSignature/app/src/main/res/layout/fragment_notifications.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../My_Android_Projects/CallSignature/app/src/main/res/layout/fragment_suggested_signature.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../My_Android_Projects/CallSignature/app/src/main/res/layout/fragment_suggested_signature.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../My_Android_Projects/CallSignature/app/src/main/res/layout/item_call_list.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../My_Android_Projects/CallSignature/app/src/main/res/layout/item_call_list.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../My_Android_Projects/CallSignature/app/src/main/res/layout/item_created_signature.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../My_Android_Projects/CallSignature/app/src/main/res/layout/item_created_signature.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../My_Android_Projects/CallSignature/app/src/main/res/layout/item_notification.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../My_Android_Projects/CallSignature/app/src/main/res/layout/item_notification.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../My_Android_Projects/CallSignature/app/src/main/res/layout/signature_click_bottom_sheet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../My_Android_Projects/CallSignature/app/src/main/res/layout/signature_click_bottom_sheet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../My_Android_Projects/CallSignature/app/src/main/res/values/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../My_Android_Projects/CallSignature/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../My_Android_Projects/MVPNote/app/src/main/java/com/dadashova/aytaj/mvpnote/new_note/AddNoteActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../My_Android_Projects/MVPNote/app/src/main/java/com/dadashova/aytaj/mvpnote/new_note/AddNoteActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../My_Android_Projects/MVPNote/app/src/main/res/layout/activity_add_note.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../My_Android_Projects/MVPNote/app/src/main/res/layout/activity_add_note.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/LastDatabaseAttempt$MampTest.ic" NAME="MampTest Coverage Results" MODIFIED="1551091835916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="root@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="root@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="root@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="accounts: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="root@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="accounts: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="accounts: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1473078756">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.38" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="7" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/asd.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Accounts/Accounts.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="968">
+              <caret line="51" column="16" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Accounts/DatabaseProcesses.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Accounts/InterfaceForAccounts.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Main/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/368d7666-de2a-4b8f-8ca5-cd0f448cd7b7/console.sql" />
+        <option value="$PROJECT_DIR$/src/Main/Main.java" />
+        <option value="$PROJECT_DIR$/src/DatabaseTest.java" />
+        <option value="$PROJECT_DIR$/src/MampTest.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/6b0d8edb-0ecc-4518-991b-c843917adaef/console.sql" />
+        <option value="$PROJECT_DIR$/src/asd.java" />
+        <option value="$PROJECT_DIR$/src/Accounts/InterfaceForAccounts.java" />
+        <option value="$PROJECT_DIR$/src/Accounts/Accounts.java" />
+        <option value="$PROJECT_DIR$/src/Accounts/DatabaseProcesses.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-7" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="LastDatabaseAttempt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LastDatabaseAttempt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LastDatabaseAttempt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LastDatabaseAttempt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LastDatabaseAttempt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LastDatabaseAttempt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Accounts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LastDatabaseAttempt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LastDatabaseAttempt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Main" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551724178135" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="DatabaseTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DatabaseTest" />
+      <module name="LastDatabaseAttempt" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main.Main" />
+      <module name="LastDatabaseAttempt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MampTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MampTest" />
+      <module name="LastDatabaseAttempt" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="asd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="asd" />
+      <module name="LastDatabaseAttempt" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.DatabaseTest" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.MampTest" />
+      <item itemvalue="Application.asd" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.asd" />
+        <item itemvalue="Application.MampTest" />
+        <item itemvalue="Application.DatabaseTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ab77eb08-20c4-4d8d-ba3d-e4bc634a31fd" name="Default Changelist" comment="" />
+      <created>1551013171265</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1551013171265</updated>
+      <workItem from="1551013175244" duration="1817000" />
+      <workItem from="1551021745918" duration="9733000" />
+      <workItem from="1551070779660" duration="1936000" />
+      <workItem from="1551073089171" duration="1707000" />
+      <workItem from="1551086221522" duration="5577000" />
+      <workItem from="1551168550994" duration="3816000" />
+      <workItem from="1551177837590" duration="3609000" />
+      <workItem from="1551183084882" duration="310000" />
+      <workItem from="1551184142158" duration="110000" />
+      <workItem from="1551184289600" duration="6347000" />
+      <workItem from="1551190977139" duration="285000" />
+      <workItem from="1551198454878" duration="3684000" />
+      <workItem from="1551241194874" duration="969000" />
+      <workItem from="1551250150487" duration="2370000" />
+      <workItem from="1551252683521" duration="990000" />
+      <workItem from="1551291408033" duration="2617000" />
+      <workItem from="1551327650314" duration="660000" />
+      <workItem from="1551441293081" duration="1607000" />
+      <workItem from="1551513385392" duration="375000" />
+      <workItem from="1551515670988" duration="596000" />
+      <workItem from="1551718338346" duration="5765000" />
+      <workItem from="1560014315525" duration="616000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="55496000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21406959" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Learn" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34918034" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32872504" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3289689" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32786885" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Console" order="13" weight="0.3289689" />
+      <window_info anchor="bottom" id="Duplicate detector" order="14" weight="0.3289689" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.1913767" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32980332" />
+      <window_info anchor="right" id="Maven Projects" order="10" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15355521" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Learn" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3502455" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3289689" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3289689" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Database Console" order="13" weight="0.3289689" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.24810892" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f7e516e1-ebf2-41ec-a721-59020684675c/console.sql" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/36dd50ee-2be3-4f6a-91ff-923a30abd57a/console.sql" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/368d7666-de2a-4b8f-8ca5-cd0f448cd7b7/console.sql" />
+    <entry file="file://$PROJECT_DIR$/src/DatabaseTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/MampTest.java" />
+    <entry file="das://368d7666-de2a-4b8f-8ca5-cd0f448cd7b7/schema/accounts/table/accounts" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/6b0d8edb-0ecc-4518-991b-c843917adaef/console.sql" />
+    <entry file="das://6b0d8edb-0ecc-4518-991b-c843917adaef/schema/accounts/table/accounts" />
+    <entry file="file://$PROJECT_DIR$/src/asd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Accounts/Accounts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="968">
+          <caret line="51" column="16" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Accounts/InterfaceForAccounts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Accounts/DatabaseProcesses.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>LastDatabaseAttempt</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>mysql-connector-java-8.0.15</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
